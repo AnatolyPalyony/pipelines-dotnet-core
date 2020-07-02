@@ -23,8 +23,6 @@ steps:
     projects: '**/*Tests/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
     
-steps:
-
 - task: DotNetCoreCLI@2
   displayName: publish Zip
   inputs:
